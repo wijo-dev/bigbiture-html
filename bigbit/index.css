@@ -7,6 +7,9 @@ ul {
     margin: unset;
     padding: unset;
 }
+p {
+    margin: 2px 0px 2px 0px;
+}
 
 body {
     min-width: 1434px;
@@ -72,7 +75,7 @@ nav::after {content: ''; display: block; clear: both;}
     display: inline-block;
     float: left;
     height: 37px;
-    width: calc(90%/4);
+    width: calc(70%/4);
     line-height: 37px;
     text-align: center;
     box-sizing: border-box;
@@ -148,9 +151,40 @@ section {
     top: 3px;
 }
 
-#board {
+#board, #gallery {
     border: solid 1px;
 }
+
+#gallery ul {
+    padding-left: 18px;
+}
+#gallery ul li {
+    display: inline-block;
+    width: calc(100%/5.2);
+    height: 134px;
+    vertical-align: top;
+}
+
+#gallery > ul > li > a {
+    display: block;
+    height: inherit;
+}
+
+#gallery > ul > li > a > p {
+    margin-left: 14px;
+    margin-right: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap
+}
+#gallery ul li a img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    height: 80%;
+}
+
+
 table {
     width: 100%;
     border: 1px solid #444444;
