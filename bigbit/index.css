@@ -78,8 +78,12 @@ nav::after {content: ''; display: block; clear: both;}
     box-sizing: border-box;
 }
 
+.nav-ul li:hover, .nav-ul ul li:hover{
+    background:#66aaff;
+}
+
 .nav-ul > li:hover ul {
- display: block;
+    display: block;
 }
 
 .nav-ul > li > ul {
@@ -88,6 +92,7 @@ nav::after {content: ''; display: block; clear: both;}
     position: relative;
     border: solid 0.2px;
 }
+
 .nav-ul > li:nth-child(1),
 .nav-ul > li:nth-child(2) {
     width: calc(10%/2);
@@ -109,6 +114,24 @@ section {
 }
 #quote {
     border: solid 1px;
+}
+
+.tab-wrap ul li {
+    display: inline-block;
+    height: 28px;
+    width: 66px;
+    border: solid 1px;
+    margin-right: -4px;
+
+}
+.tab-wrap ul li a {
+    line-height: 28px;
+    font: 17px fantasy;
+}
+
+.tab-wrap ul li img {
+    padding: 4px 5px 0px 5px;
+    vertical-align: text-bottom;
 }
 
 #center-ad {
