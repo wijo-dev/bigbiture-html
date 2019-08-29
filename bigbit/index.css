@@ -1,0 +1,167 @@
+a {
+    color: none;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    min-width: 1434px;
+    margin: 0 auto;
+    font: 400 14.3333px Arial;
+}
+
+.wrap {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#toolbar {
+    background: linear-gradient(to left, black 15%, white 35%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: absolute;
+    height: 35px;
+    z-index: -1;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 29px;
+}
+
+#join a {
+    color: white;
+    margin-right: 15px;
+}
+#main-search {
+    display: inline-block;;
+    position: relative;
+    top: -23px;
+    margin-left: 24%;
+    border: 1px solid #cfd1d4;
+    border-radius: 24px;
+
+}
+#main-search:hover {
+    box-shadow: 0px 0px 6px 0.1px grey;
+}
+#main-search:focus-within {
+    box-shadow: 0px 0px 6px 0.1px grey;
+}
+#main-search input {
+    line-height: 33px;
+    text-align: right;
+    margin: 0px 24px 0px 24px;
+    width: 230px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+nav {
+    border-top: 1px solid #af9e9e;
+    border-bottom: 1px solid #af9e9e;
+    margin-bottom: 10px;
+}
+nav::after {content: ''; display: block; clear: both;}
+    
+.nav-ul > li {
+    display: inline-block;
+    float: left;
+    height: 37px;
+    width: calc(90%/4);
+    line-height: 37px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nav-ul > li:hover ul {
+ display: block;
+}
+
+.nav-ul > li > ul {
+    display: none;
+    background: white;
+    position: relative;
+    border: solid 0.2px;
+}
+.nav-ul > li:nth-child(1),
+.nav-ul > li:nth-child(2) {
+    width: calc(10%/2);
+}
+
+.aside-left {
+    width: 10%;
+    display: inline-block;
+}
+
+.aside-left img {
+    width: 100%;
+}
+
+section {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+#quote {
+    border: solid 1px;
+}
+
+#center-ad {
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    border: 1px solid #444444;
+}
+
+#center-ad img {
+    position: relative;
+    height: 95%;
+    width: 70%;
+    top: 3px;
+}
+
+#board {
+    border: solid 1px;
+}
+table {
+    width: 100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+.aside-right {
+    vertical-align: top;
+    width: 19%;
+    display: inline-block;
+}
+
+#USD {
+    border: solid 1px;
+}
+#best {
+    border: solid 1px;
+}
+
+
+footer div {
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+    border-top: 2px solid #565b67;
+    border-bottom: 1px solid #f1f1f1;
+}
+footer div span:nth-child(4) {
+    float: right;
+}
+
+#ad3 img{
+    width: 100%;
+}
